@@ -1,1 +1,1 @@
-"# voici ma premiäre utilisation de git" 
+"# voici ma premi√®re utilisation de git" 
