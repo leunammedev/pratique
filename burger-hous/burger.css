@@ -1,0 +1,268 @@
+
+.smart{
+    width: 40px;
+    right: 185px;
+    position: absolute;
+    top: 20px;
+    color:#3c2513 ;
+}
+header{
+    background-color: #ffc556;  
+    margin-bottom: 55px;
+}
+@font-face{
+    font-family: 'BebasNeue';
+    src: url(./images/police/BebasNeue-Regular.ttf)
+}
+@font-face{
+    font-family: 'AlfaSlabOne';
+    src: url(./images/police/AlfaSlabOne-Regular.ttf)
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(./images/police/Montserrat-VariableFont_wght.ttf)
+}
+.police{
+    font-family: 'BebasNeue';
+}
+.font{
+    font-family: 'AlfaSlabOne';
+    color: #3c2513;
+}
+.lorem{
+    font-family: 'Montserrat';
+}
+.menu-bar-container{
+    display: flex;
+    align-items: flex-end;
+}
+.menu-bar-left img{
+    margin: 30px;
+
+}
+a{
+    margin-right: 40px;
+    text-decoration: none;
+    color:#3c2513 ;
+}
+.menu-bar-right{
+    margin-top: -100px;
+    margin-left: 1135px;
+}
+.top-container{
+    display: flex;
+}
+.top-right{
+    margin-top: -100px;
+    margin-left: 528px;
+}
+.top-left{
+    margin-top: 7%;
+    margin-left: 30px;
+}
+.top-title{
+    border: 2px dashed #3c2513;
+    padding: 5px;
+   font-family:'BebasNeue';
+   display: inline-block;
+}
+.top-left-burger{
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'AlfaSlabOne';
+    color: #422b1b;
+}
+.top-left-week{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'AlfaSlabOne';
+    color: #422b1b;
+}
+.burger-one-container{
+    display: flex;
+    justify-content: center;
+}
+.burger-container-left{
+    background-image: url(images/plat-burger1.jpg);
+    width: 596px;
+    height: 420px;
+    color: aliceblue;
+}
+.note1{
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'BebasNeue';
+}
+.note2{
+    margin-left: 15px;
+    font-size: 1.5rem;
+    font-family: 'BebasNeue';
+}
+.note3{
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+.burger-container-right{
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.burger-one{
+    margin-bottom: 30px;
+    background-image: url(images/plat-burger2.jpg);
+    color: aliceblue;
+    width: 596px;
+    height: 192px;
+    padding-top: 1px;
+}
+.burger-two{
+    background-image: url(images/plat-burger3.jpg);
+    color: aliceblue;
+    width: 596px;
+    height: 192px;
+    padding-top: 1px;
+}
+span{
+    background-color: #ffc045;
+    display: inline-block;
+}
+.many-button{
+    background-color: #ffc045;
+    width: 200px;
+    margin: 30px;
+    color: #3c2513;
+    font-weight: bold;
+    font-family: 'BebasNeue';
+} 
+.choose-note{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'AlfaSlabOne';
+    color: #3d2514;
+}  
+.burger-two-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.many{
+    text-align: center;
+}
+.order{
+    text-align: center;
+}
+button{
+    background-color: #c02223;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 120px;
+}
+.discover{
+    text-align: center;
+}
+.top-form-container{
+    display: flex;
+    justify-content: center;
+} 
+.left-form{ 
+    margin-right: 100px;
+}
+.form-title{
+    align-items: center;
+    margin-right: 300px;
+}
+.form-position{
+    text-align: center;
+    color: #422b1b;
+}
+.form-position-two{
+    font-size: 4rem;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    text-align: center;
+}
+.left-form-container{
+    margin-right: 100px;
+    margin-left: 116px;
+}
+.form input{
+    width: 225px;
+    padding: 17px;
+    margin: 9px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+}
+.form button{
+    width: 265px;
+    padding: 17px;
+    margin: 9px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.right-form-container{
+    margin-right: -162px;
+    margin-top: 40px;
+}
+.tfoot-picture{
+    background-image: url(images/plat-enbas.jpg);
+    padding: 45px;
+    color: white;
+    background-size: cover;
+    background-position: 100%
+}
+.text-map{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.text{
+    width: 40%;
+}
+.map{
+    display: flex;
+    margin-bottom: 15px;
+}
+.adress{
+    display: flex;
+}
+.map-adress{
+    margin-right: 200px;
+    margin-top: 75px;
+}
+.tfooter{
+    display: flex;
+    margin-top: 229px;
+    justify-content: space-between;
+}
+.send{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.send-send{
+    margin-left: 15px;
+}
+.social{
+    display: flex;
+}
+.module{
+    margin-right: 10px;
+}
+.many-button:hover{
+    background-color: rgb(224, 18, 18);
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    background-color: orange;
+    transform: scale(0.9);
+}
